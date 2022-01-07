@@ -1,4 +1,4 @@
-# SvewlteKit Markdown Site
+# SvelteKit Markdown Site
 
 This is supposed to be a simple static site tool with a bunch of opinions:
 
