@@ -2,7 +2,7 @@
 import {
 } from 'carbon-components-svelte'
 
-import Helper from '$components/Helper.svelte'
+import OutlineHelper from '$components/OutlineHelper.svelte'
 import Highlight from "svelte-highlight"
 import typescript from "svelte-highlight/src/languages/typescript";
 import github from "svelte-highlight/src/styles/github";
@@ -10,17 +10,7 @@ import { route } from '$lib/nav_store'
 import { onMount } from 'svelte'
 
 onMount(() => {
-  route.set({
-    pathname: document.location.pathname,
-    hash: document.location.hash
-  })
 
-  window.addEventListener('hashchange', (ev) => {
-    route.set({
-      pathname: document.location.pathname,
-      hash: document.location.hash
-    })
-  }, false);
 })
 
 </script>
@@ -31,7 +21,7 @@ onMount(() => {
 
 <div class="markdown-generated">
 
-<Helper />
+<OutlineHelper />
 
 # An h1 header
 

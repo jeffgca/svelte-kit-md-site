@@ -22,11 +22,10 @@
   let isMobileDevice: boolean
   // let deviceType: string
 
-  export let route : string
-  export let hash : string
-
+  // XXX todo: somehow generate this dynamically based on a lit of files in the routes folder.
   let siteNavMap = [
-    { href: '/', label: 'Index' }
+    { href: '/', label: 'Index' },
+    { href: '/about', label: 'About' }
   ]
 
   onMount(() => {
@@ -38,10 +37,6 @@
       }
       return isMobileDevice
     }
-
-    // the start of a function that parses out header tags in the doc and builds a doc buildDocOutline.
-
-
     setDevice()
   })
 
@@ -49,8 +44,8 @@
 
 <svelte:window on:resize={setDevice} />
 <Header
-  company="UCAN" 
-  platformName="Distributed Auth" 
+  company="SvelteKit" 
+  platformName="Simple Markdown Site" 
   href="/" 
   bind:isSideNavOpen
 >
@@ -82,11 +77,8 @@
       {/each}
       <SideNavDivider />
     {/if}
-    
-    <!-- TODO: figure out how to create this doc outline based on the headings -->
     <!-- / etc of the current page  -->
     <SideNavMenu text="On This Page" expanded={true}>
-      <!-- <SideNavMenuItem text="Intro" href="#intro"/> -->
     </SideNavMenu>
   </SideNavItems>
 </SideNav>

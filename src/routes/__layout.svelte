@@ -21,7 +21,7 @@
 
 <Theme bind:theme />
 
-<Header {route} {hash}/>
+<Header />
 <Content>
   <Grid>
     <Row>
