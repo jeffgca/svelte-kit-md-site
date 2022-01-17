@@ -65,14 +65,14 @@
 
 :global(div.markdown-generated),
 :global(div.markdown-generated > pre),
-:global(div.markdown-generated p), 
+:global(div.markdown-generated > p), 
 :global(div.markdown-generated ul) {
   margin-bottom: 1.2em;
   margin-top: 1.4em;
 }
 
 :global(div.markdown-generated h1), :global(div.markdown-generated h2), :global(div.markdown-generated h3) {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'IBM Plex Sans', sans-serif;
   margin-bottom: 0.8em;
 }
 
@@ -83,7 +83,7 @@
 }
 
 :global(div.markdown-generated a) {
-  color: #343434;
+  color: blue;
 }
 
 :global(div.markdown-generated a:visited) {
@@ -92,6 +92,17 @@
 
 :global(div.markdown-generated a:hover) {
   color: red;
+}
+
+:global(div.markdown-generated blockquote) {
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  background-color: #efefef;
+  border-left: 2rem solid #cccc;
+  font-style: italic;
+  color: #565656;
+  width: auto;
 }
 
 </style>
