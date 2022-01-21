@@ -1,7 +1,7 @@
 import { resolve } from 'path'
 import preprocess from 'svelte-preprocess'
 import adapter from '@sveltejs/adapter-static'
-import { mdsvex } from "mdsvex"
+import { mdsvex } from 'mdsvex'
 import remarkHeadingId from 'remark-heading-id'
 
 console.log('from build script', remarkHeadingId)

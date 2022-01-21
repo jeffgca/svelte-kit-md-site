@@ -25,6 +25,7 @@
   // XXX todo: somehow generate this dynamically based on a lit of files in the routes folder.
   let siteNavMap = [
     { href: '/', label: 'Index' },
+    { href: '/cookbook', label: 'Cookbook' },
     { href: '/about', label: 'About' }
   ]
 

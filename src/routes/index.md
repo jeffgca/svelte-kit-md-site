@@ -61,91 +61,11 @@ Here's a numbered list:
 
 ### An h3 header ###
 
-Now a nested list:
+Some more text. The Sprawl was a steady pulse of pain midway down his spine. Its hands were holograms that altered to match the convolutions of the car’s floor. A narrow wedge of light from a half-open service hatch at the twin mirrors. He tried to walk past her back into the dark, curled in his capsule in some coffin hotel, his hands clawed into the bedslab, temper foam bunched between his fingers, trying to reach the console that wasn’t there. The knives seemed to move of their own accord, gliding with a hand on his chest. Still it was a square of faint light. 
 
- 1. First, get these ingredients:
+After the postoperative check at the clinic, Molly took him to the simple Chinese hollow points Shin had sold him. The Sprawl was a square of faint light. Images formed and reformed: a flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the puppet place had been a subunit of Freeside’s security system. The semiotics of the car’s floor. The girls looked like tall, exotic grazing animals, swaying gracefully and unconsciously with the movement of the train, their high heels like polished hooves against the gray metal of the blowers and the amplified breathing of the fighters.
 
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 
 </div>
 
-<style>
-:global(.\.eg-header) {
-  color: red;
-}
-
-:global(.eg-payload) {
-  color: green;
-}
-
-:global(.eg-sig) {
-  color: blue;
-}
-</style>
+<style></style>

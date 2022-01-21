@@ -59,6 +59,7 @@
 :global(div.markdown-generated > pre),
 :global(div.markdown-generated p), 
 :global(div.markdown-generated ul),
+:global(div.markdown-generated ol),
 :global(div.markdown-generated a.bx--link) {
   font-size: large;
 }
@@ -66,7 +67,9 @@
 :global(div.markdown-generated),
 :global(div.markdown-generated > pre),
 :global(div.markdown-generated > p), 
-:global(div.markdown-generated ul) {
+:global(div.markdown-generated ul),
+:global(div.markdown-generated blockquote),
+:global(div.markdown-generated ol) {
   margin-bottom: 1.2em;
   margin-top: 1.4em;
 }
@@ -76,10 +79,18 @@
   margin-bottom: 0.8em;
 }
 
-:global(div.markdown-generated ul li) {
-  list-style: disc;
+:global(div.markdown-generated ol > li),
+:global(div.markdown-generated ul > li) {
   margin-left: 1.4em;
   width: 95%;
+}
+
+:global(div.markdown-generated ul > li) {
+  list-style: disc;
+}
+
+:global(div.markdown-generated ol > li) {
+  list-style-type: decimal;
 }
 
 :global(div.markdown-generated a) {
