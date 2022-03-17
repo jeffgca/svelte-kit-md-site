@@ -116,4 +116,11 @@
   width: auto;
 }
 
+:global(:target::before) {
+  content: "";
+  display: block;
+  height: 60px; /* fixed header height*/
+  margin: -60px 0 0; /* negative fixed header height */
+}
+
 </style>
