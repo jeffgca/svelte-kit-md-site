@@ -5,10 +5,6 @@ import OutlineHelper from '$components/OutlineHelper.svelte'
 import windowsHighContrast from "svelte-highlight/src/styles/windows-high-contrast"
 import samples from './cookbook.json'
 
-// let samples = JSON.parse(JSONsamples);
-
-console.log(`${JSON.stringify(samples, null, '  ')}`)
-
 </script>
 
 <svelte:head>
@@ -16,6 +12,8 @@ console.log(`${JSON.stringify(samples, null, '  ')}`)
 </svelte:head>
 
 <div class="markdown-generated">
+
+<OutlineHelper />
 
 # Cookbook
 
